@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+@include('admin.layouts.head')
+
+</head>
+<body>
+	<body class="skin-blue">
+	 <div class="wrapper">
+	 	@include('admin.layouts.header')
+
+	 	@include('admin.layouts.sidebar')
+  @section('main-content')
+
+  @show
+	 	@include('admin.layouts.footer')
+
+
+ </div>
+</body>
+</html>
